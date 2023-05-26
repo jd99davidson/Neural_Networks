@@ -1,0 +1,5 @@
+# Neural Networks
+
+This repository contains the perceptron.py file which contains two classes: Perceptron() and MultiLayeredPerceptron(). The MultiLayeredPerceptron() class uses composition to nest the layers of individual neurons (perceptrons) in it's network attribute. There are two primary methods for the perceptron class: run() and bp(). Because the weights of the neurons are stored in the instantiated perceptrons in the network attribtue, they can be accessed and updated using the backpropogation algorithm to train the weights to produce the desired outcome of a sample. Therefore, the bp() method is used to train the network ran for as many training epochs is desired. The run() method then takes in the appropriate number of inputs to feed through the network and returns the outputs the neural network thinks is appropriate. 
+
+This repository also provides three examples of use cases for the neural network. The first is a series of logic gates that can be solved simply by providing the appropriate weights to a single perceptron. The network then behaves as the logical 'OR', 'AND', and 'XOR' gates. The second is the 
